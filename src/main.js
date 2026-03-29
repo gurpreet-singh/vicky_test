@@ -19,6 +19,7 @@ document.querySelector('#app').innerHTML = `
       <div class="nav-links" id="navLinks">
         <a href="#home" class="nav-link active">Home</a>
         <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
         <a href="#experience" class="nav-link">Experience</a>
         <a href="#contact" class="nav-link">Contact</a>
       </div>
@@ -175,6 +176,21 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
+  <!-- About Me Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">The <span class="gradient-text">Engineer</span> Behind the Work</h2>
+      </div>
+      <div class="about-content reveal">
+        <p class="about-text">
+          With over two decades of hands-on experience in the maritime industry, I have dedicated my career to keeping vessels running safely and efficiently across the world's oceans. From troubleshooting complex electrical faults on cargo ships in the Arabian Sea to overhauling main engines at dry docks in Mumbai, every project has deepened my expertise and passion for marine engineering. I founded MarineTech Pro with a simple belief — that every ship deserves reliable, world-class engineering support delivered with honesty, precision, and an unwavering commitment to safety.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- Stats / Experience Section -->
   <section class="stats-section" id="experience">
     <div class="stats-bg">
@@ -321,6 +337,7 @@ document.querySelector('#app').innerHTML = `
         <div class="footer-links">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
+          <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </div>
